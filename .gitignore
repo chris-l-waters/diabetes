@@ -1,0 +1,36 @@
+# Data files (too large)
+*.pkl
+archive/
+*.zip
+data/
+
+# Model artifacts (too large)
+models/*
+models/fits_pickle_d*
+models/*.h5
+neural_net_tuning/
+
+# all notebooks but final
+notebooks/outputs
+notebooks/*.ipynb
+notebooks/*.py
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+.python-version
+
+# Temporary/notes
+notes/
+helpers/
+archive/
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.html
+
+# Other
+.DS_Store
